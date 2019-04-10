@@ -87,7 +87,7 @@
 		</dependency>
 					<!-- https://mvnrepository.com/artifact/org.junit.platform/junit-platform-engine -->
 		<dependency>
-		    <groupId>org.junit.platform</groupId>
+		    <groupId>org.junit.platform</groupId> 
 		    <artifactId>junit-platform-engine</artifactId>  
 		    <scope>test</scope>
 		</dependency>
