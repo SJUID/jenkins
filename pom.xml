@@ -181,13 +181,13 @@
      <execution>
        <id>validate</id>
        <phase>validate</phase>
-       <configuration>
-         <!--  <configLocation>checkstyle.xml</configLocation>-->
+       <!-- <configuration>
+          <configLocation>checkstyle.xml</configLocation>
          <encoding>UTF-8</encoding>
          <consoleOutput>true</consoleOutput>
-         <failsOnError>true</failsOnError>
+         <failsOnError>false</failsOnError>
          <linkXRef>false</linkXRef>
-       </configuration>
+       </configuration>-->
        <goals>
          <goal>check</goal>
        </goals>
