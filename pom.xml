@@ -173,17 +173,13 @@
 	</plugin>
 
 <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-checkstyle-plugin</artifactId>
-          <version>3.0.0</version>
-          <dependencies>
-            <dependency>
-              <groupId>com.puppycrawl.tools</groupId>
-              <artifactId>checkstyle</artifactId>
-              <version>...choose your version...</version>
-            </dependency>
-          </dependencies>
-        </plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-checkstyle-plugin</artifactId>
+    <version>RELEASE</version>
+    <configuration>
+        <configLocation>src/main/resources/checkstyle.xml</configLocation>                   
+    </configuration>
+</plugin>
 
 
 		</plugins>
