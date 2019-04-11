@@ -120,6 +120,12 @@
 
 
 
+<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-checkstyle-plugin -->
+<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-checkstyle-plugin</artifactId>
+    <version>3.0.0</version>
+</dependency>
 
 
 
@@ -173,14 +179,6 @@
 		</executions>
 	</plugin>
 
-
-
-<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-checkstyle-plugin -->
-<dependency>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-checkstyle-plugin</artifactId>
-    <version>3.0.0</version>
-</dependency>
 
 
 
