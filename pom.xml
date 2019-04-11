@@ -115,18 +115,20 @@
 
 
 <!-- https://mvnrepository.com/artifact/org.jacoco/jacoco-maven-plugin -->
-<!-- <dependency>
+<dependency>
     <groupId>org.jacoco</groupId>
     <artifactId>jacoco-maven-plugin</artifactId>
     <version>0.8.3</version>
-</dependency>-->
-
-<!-- https://mvnrepository.com/artifact/org.jenkins-ci.plugins/jacoco -->
-<dependency>
-    <groupId>org.jenkins-ci.plugins</groupId>
-    <artifactId>jacoco</artifactId>
-    <version>2.2.1</version>
 </dependency>
+
+<!-- https://mvnrepository.com/artifact/org.jacoco/org.jacoco.agent -->
+<dependency>
+    <groupId>org.jacoco</groupId>
+    <artifactId>org.jacoco.agent</artifactId>
+    <version>0.7.9</version>
+    <scope>test</scope>
+</dependency>
+
 
 
 
